@@ -1,0 +1,51 @@
+/* Fondo general de la página */
+body{
+    background: linear-gradient(135deg,#eef2f3,#dfe9f3);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAVBAR */
+.navbar-custom{
+    background: linear-gradient(90deg,#1f2937,#111827);
+}
+
+/* Título principal */
+.titulo{
+    font-weight:700;
+    color:#1f2937;
+}
+
+/* Contenedor principal */
+.main-container{
+    background:white;
+}
+
+/* Canvas estilo moderno */
+.canvas-style{
+    border-radius:10px;
+    border:2px solid #444;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse */
+.canvas-style:hover{
+    transform:scale(1.03);
+}
+
+/* FOOTER */
+.footer-custom{
+    margin-top:auto;
+    background:#111827;
+    color:white;
+    padding:15px;
+    font-size:14px;
+}
+
+/* texto footer */
+.footer-custom strong{
+    color:#38bdf8;
+}
